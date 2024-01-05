@@ -1,15 +1,7 @@
 class estruturaaninhada {
   public static void main(String[] args) {
-    int nota = 2;
-
-    if(nota >= 5){
-      System.out.println("Aprovado");
-    }
-    else if(nota >= 3 || nota < 5){
-      System.out.println("Exame");
-    }
-    else{
-      System.out.println("Reprovado");
-    }
+      for(int i=0; i<=10; i++)
+          for(int j=0; j<=10; j++)
+               System.out.println(i + " x " + j + " = " + (i*j));
   }
 }
