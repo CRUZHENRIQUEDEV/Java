@@ -1,4 +1,4 @@
-class Main {
+class estruturaaninhada {
   public static void main(String[] args) {
     int nota = 2;
 
