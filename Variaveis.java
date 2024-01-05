@@ -1,4 +1,4 @@
-class Main {
+class varaiveis {
   public static void main(String[] args) {
     String valor = "Descomplica - Java"; 
 
