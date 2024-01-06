@@ -1,4 +1,4 @@
-public class poupanca implements Conta {
+public class Poupanca implements Conta {
   private double saldo;
 
   public void depositar(double valor){

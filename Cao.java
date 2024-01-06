@@ -1,23 +1,30 @@
+// Definição da classe Cao
 public class Cao {
-  String nome;
-  String cor;
-  int idade;
-  double peso;
+    // Atributos da classe Cao
+    String nome;
+    String cor;
+    int idade;
+    double peso;
 
-  public Cao() {
-    cor = "Caramelo";
-  }
+    // Construtor padrão
+    public Cao() {
+        cor = "Caramelo";
+    }
 
-  public Cao(String nome, int idade) {
-    this.nome = nome;
-    this.idade = idade;
-  }
+    // Construtor personalizado com parâmetros
+    public Cao(String nome, int idade) {
+        // Utilizando a palavra-chave "this" para referenciar os atributos da classe
+        this.nome = nome;
+        this.idade = idade;
+    }
 
-  public void Anda() {
-    System.out.println("Estou andando..." + cor);
-  }
+    // Método para simular a ação de andar
+    public void Anda() {
+        System.out.println("Estou andando..." + cor);
+    }
 
-  public void DadosCao() {
-    System.out.println(nome + " " + idade);
-  }
+    // Método para exibir dados do cachorro
+    public void DadosCao() {
+        System.out.println(nome + " " + idade);
+    }
 }

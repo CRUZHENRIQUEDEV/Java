@@ -1,4 +1,4 @@
-// Definição da classe Pedido
+
 public class Pedido {
     // Atributo privado da classe Pedido do tipo Itens
     private Itens i;

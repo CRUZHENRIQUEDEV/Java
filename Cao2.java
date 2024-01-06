@@ -1,25 +1,26 @@
+// Definição da classe Cao2
 public class Cao2 {
-  private int idade;
+    // Atributo privado idade
+    private int idade;
 
-  public void setIdade(int i){
-    idade = i;
-  }
-
-  public int getIdade(){
-    return idade;
-  }
-  
-  public void Andar(){
-    System.out.println("Estou andando");
-  }
-
-  public boolean VerificarIdade(){
-    if(idade > 10){
-      return true;
+    // Método para definir a idade
+    public void setIdade(int i) {
+        idade = i;
     }
-    else
-    {
-      return false;
+
+    // Método para obter a idade
+    public int getIdade() {
+        return idade;
     }
-  }
+
+    // Método para simular a ação de andar
+    public void Andar() {
+        System.out.println("Estou andando");
+    }
+
+    // Método para verificar se a idade é superior a 10
+    public boolean VerificarIdade() {
+        // Retorna verdadeiro se a idade for maior que 10, caso contrário, retorna falso
+        return idade > 10;
+    }
 }
