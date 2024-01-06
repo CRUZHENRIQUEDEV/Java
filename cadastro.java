@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class Cadastro {
   public static void main(String[] args) {
     try (Scanner entrada = new Scanner(System.in)) {
         System.out.println("Escolha uma opção: ");

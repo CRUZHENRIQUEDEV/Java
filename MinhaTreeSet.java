@@ -1,6 +1,6 @@
 import java.util.TreeSet;
 
-class TreeSet {
+class MinhaTreeSet {
   public static void main(String[] args) {
     TreeSet<Integer> numeros = new TreeSet<>();
     numeros.add(8);

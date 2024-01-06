@@ -1,4 +1,4 @@
-class condicionalsimples {
+class Condicionalsimples {
   public static void main(String[] args) {
     int nota = 2;
 

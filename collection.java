@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-class Main {
+class TreeSet {
   public static void main(String[] args) {
     ArrayList<Integer> numeros = new ArrayList<>();
     numeros.add(1);

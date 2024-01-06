@@ -11,7 +11,7 @@ class Java extends Linguagem {
 }
 
 
-class Main {
+class mostrarInformacao {
   public static void main(String[] args) {
     //criar um objeto da linguagem java
     Java j1 = new Java();
