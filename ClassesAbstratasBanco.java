@@ -26,14 +26,14 @@
  */
 
 // Definição da classe principal ClassesAbstratas
-public class ClassesAbstratas {
+public class ClassesAbstratasBanco {
     public static void main(String[] args) {
         // Criando uma instância de Poupanca e referenciando através da classe Conta (polimorfismo)
         Conta cp = new Poupanca();
         
         // Chamando métodos da classe Conta
-        cp.depositar(732);
-        cp.sacar(8);
+        cp.setSaldo(732);
+        cp.imprimeExtrato();
         cp.getSaldo();
     }
 }

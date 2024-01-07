@@ -1,24 +1,32 @@
 /*
- * Neste código:
- 
-A interface Conta é definida com três métodos: depositar, sacar, e getSaldo.
-Cada método na interface representa uma operação que pode ser realizada em uma conta.
-Interfaces em Java são usadas para definir contratos que as classes devem seguir, indicando quais métodos elas devem implementar.
-A palavra-chave interface é usada para declarar a interface.
-Os métodos na interface não têm implementação; eles apenas definem a assinatura dos métodos que as classes que implementam a interface devem fornecer.
-Cada método tem um comentário explicativo indicando sua finalidade.
+   Exemplo de classe abstrata em Java representando uma conta.
 
- */
+   1. Declaração da classe abstrata 'Conta'.
+   2. Atributo privado 'saldo' para armazenar o saldo da conta.
+   3. Métodos 'setSaldo' e 'getSaldo' para configurar e obter o saldo da conta, respectivamente.
+   4. Método abstrato 'imprimeExtrato' que representa a ação de imprimir o extrato da conta.
 
-// Definição de uma interface chamada Conta
-interface Conta {
-    // Método para depositar um valor na conta
-    void depositar(double valor);
+   Observações:
+   - A classe é marcada como abstrata usando a palavra-chave 'abstract'.
+   - Métodos abstratos são declarados sem implementação e devem ser implementados nas subclasses concretas.
+   - A classe abstrata pode conter métodos concretos (com implementação) e/ou métodos abstratos.
+*/
 
-    // Método para sacar um valor da conta
-    void sacar(double valor);
+public abstract class Conta {
 
-    // Método para obter o saldo atual da conta
-    double getSaldo();
+    // Atributo privado para armazenar o saldo da conta
+    private double saldo;
+
+    // Método para configurar o saldo da conta
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    // Método para obter o saldo da conta
+    public double getSaldo() {
+        return saldo;
+    }
+
+    // Método abstrato para imprimir o extrato da conta (deve ser implementado nas subclasses)
+    public abstract void imprimeExtrato();
 }
-

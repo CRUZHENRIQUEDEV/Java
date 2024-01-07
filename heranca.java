@@ -11,7 +11,7 @@ Em Java, a herança é implementada usando a palavra-chave `extends`.
  */
 
 // Classe principal que demonstra um exemplo de herança em Java
-class heranca {
+class Heranca {
     public static void main(String[] args) {
         // Criando uma instância da classe Pessoa
         Pessoa p = new Pessoa();

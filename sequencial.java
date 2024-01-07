@@ -1,4 +1,4 @@
-class sequencial{
+class Sequencial{
   public static void main(String[] args) {
       double base, altura, area;
 
