@@ -1,5 +1,8 @@
 /*
-   Exemplo de utilização de ArrayList e Iterator em Java.
+   Collection é um termo que se refere a um grupo de elementos ou objetos em Java.
+   Neste exemplo, utilizamos a estrutura de dados ArrayList, que faz parte do framework de coleções da linguagem.
+   Um ArrayList é uma implementação da interface List e representa uma lista dinâmica que pode crescer ou diminuir de tamanho.
+   Além disso, usamos a interface Iterator para percorrer os elementos do ArrayList de forma eficiente.
 
    1. Criamos um ArrayList chamado numeros para armazenar elementos do tipo Integer.
    2. Adicionamos alguns elementos ao ArrayList.
@@ -38,4 +41,3 @@ public class Collection {
         }
     }
 }
-
